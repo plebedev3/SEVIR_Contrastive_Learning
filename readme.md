@@ -12,3 +12,6 @@ Using LLMapReduce, the map_to_opt_flow and the corrsibonding submit sh script wi
 
 Using the command:
 LLMapReduce --mapper map_to_opt_flow.sh --reducer reduce_to_opt_flow.sh --input SEVIR_IR069_NORMED_CMAPS --output SEVIR_IR069_OPT_FLOWS --slotsPerTask=16 --np=7 --prefix=ir069 --ext=noext --ndata=4
+
+## NCE Loss function implmentation
+The submodule Pytorch-NCE is needed https://github.com/Stonesjtu/Pytorch-NCE
