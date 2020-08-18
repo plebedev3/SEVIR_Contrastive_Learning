@@ -8,7 +8,7 @@ Using the ipython file ConvertToNormedCmaps.ipynb, will convert a sevir dtype to
 
 ### Optical Flows
 
-Using LLMapReduce, the map_to_opt_flow and the corrsibonding submit sh script will map along nodes and calculate the optical flow. The reduce step will later combine the batched pickle files together, but this is not nessisary as of now
+Using LLMapReduce, the map_to_opt_flow and the corresponding submit sh script will map the batched files across nodes and calculate the optical flow for the dataset. The reduce step will later combine the batched pickle files together, but this is not nessisary as of now, so it does nothing.
 
 Using the command:
 LLMapReduce --mapper map_to_opt_flow.sh --reducer reduce_to_opt_flow.sh --input SEVIR_IR069_NORMED_CMAPS --output SEVIR_IR069_OPT_FLOWS --slotsPerTask=16 --np=7 --prefix=ir069 --ext=noext --ndata=4
