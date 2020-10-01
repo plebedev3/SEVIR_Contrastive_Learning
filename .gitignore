@@ -7,3 +7,4 @@ MAPRED*
 *.npy
 *.np
 *.txt
+*.log
