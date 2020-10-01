@@ -1,9 +1,5 @@
 *.pickle
-MAPRED*
 *.png
 *.jpg
 *.pth
 *.out
-*.npy
-*.np
-*.txt
