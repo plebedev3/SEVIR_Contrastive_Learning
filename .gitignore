@@ -8,3 +8,4 @@ MAPRED*
 *.np
 *.txt
 *.log
+*tfevents*
